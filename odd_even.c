@@ -3,15 +3,14 @@
 void main()
 {
   int num;
+  printf("Enter any number:-");
   scanf("%d",&num);
   
   if (num%2 == 0)
-  {
-    printf("Even");
-  }
+    printf("->Enterd number is Even!!!!");
+  
   
   else
-  {
-    print("Odd");
-  }
+    print("->Enterd number is Odd!!!!");
+  
 }
